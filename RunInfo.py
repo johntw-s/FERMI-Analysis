@@ -5,7 +5,7 @@ import ast
 base_path = '/sdf/data/lcls/ds/tmo/tmol1043723/results/johntw'
 beamtime = '20244097'
 
-exclude = [284, 398, 528, 556, 666, 691, 719, 720, 740, 761, 793, 855, 966, 1015, 1148, 1175, 1221, 1244, 1313, 1358]
+exclude = [274, 284, 398, 528, 556, 666, 691, 719, 720, 740, 761, 793, 855, 966, 1015, 1148, 1175, 1221, 1244, 1313, 1358] #REMOVE 274 LATER!!!
 
 run_summary = pd.read_csv('/sdf/home/j/johntw/FERMI/Run_Summary.csv', header=1)
 
